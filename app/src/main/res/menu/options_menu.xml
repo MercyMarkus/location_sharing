@@ -9,16 +9,21 @@
         app:showAsAction="always|collapseActionView"
         android:icon="@drawable/ic_search_black_24dp"
         android:title="Search" />
+    <item
+        android:id="@+id/app_bar_refresh"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_action_refresh"
+        android:title="Refresh" />
     <item android:id="@+id/normal_map"
         android:title="@string/normal_map"
-        app:showAsAction="withText"/>
+        app:showAsAction="never"/>
     <item android:id="@+id/hybrid_map"
         android:title="@string/hybrid_map"
-        app:showAsAction="withText"/>
+        app:showAsAction="never"/>
     <item android:id="@+id/satellite_map"
         android:title="@string/satellite_map"
-        app:showAsAction="withText"/>
+        app:showAsAction="never"/>
     <item android:id="@+id/terrain_map"
         android:title="@string/terrain_map"
-        app:showAsAction="withText"/>
+        app:showAsAction="never"/>
 </menu>
